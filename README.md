@@ -10,6 +10,6 @@ Android app for the ```Hole in the Palm``` project, making LLMs accessible on-de
 3. Add support to incorporate datasets for RAG based QnA on-device & toggling to code assistant roles
 
 ### Long term goal
-> Look at incorporating STT via on-device STT or Whisper model for translation into English from regional language directly & TTS with VAD based interruptibility
+[ ] Look at incorporating STT via on-device STT or Whisper model for translation into English from regional language directly & TTS with VAD based interruptibility
 
-> Android WearOS app for handsfree interactions
+[ ] Android WearOS app for handsfree interactions
