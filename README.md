@@ -1,7 +1,22 @@
 # Portal
-Android app for the ```Hole in the Palm``` project, making LLMs accessible on-device!
+
+## Hole in your Palm
+> Theme: AI for India
+
+[Hasgeek Hackathon Submission](https://hasgeek.com/fifthelephant/open-source-ai-hackathon/sub/hole-in-your-palm-U8eakkDqenFxM9BWfMuXjF)
+
+
+Android app for the ```Hole in your Palm``` project, making LLMs accessible on-device!
 
 ![](https://raw.githubusercontent.com/iakashpaul/iakashpaul.github.io/master/assets/images/image-hole-in-palm.png)
+
+## Background 
+
+Through this initiative I’d like to revisit the almost 20 year old experiment of ‘The Hole in the Wall’ project by Sugata Mitra, which incorporated minimally invasive education by having a computer kiosk embedded in a wall at less fortunate locations across India.
+
+Given the increased prevalence of smartphones throughout the country but with often limited internet/network coverage in far flung locations or restricted internet access. This along with families deciding on activating/deactivating internet plans to avoid paying high fees/rental plans leads to the friction of thinking about cost before getting answers to a question/query at any point of time.
+
+I propose creating an Android app which can incorporate few of the smaller LLMs for tasks like general QnA, coding help, translation etc. Thereby making educational resources more accessible & available to users without depending on costly cloud GPUs or active internet connections. Adding modalities like STT/TTS on device along with possible image generation could be extensions to this app down the road.
 
 ## Roadmap
 
