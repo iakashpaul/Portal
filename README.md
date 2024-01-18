@@ -1,7 +1,7 @@
 # Portal
 Android app for the ```Hole in the Palm``` project, making LLMs accessible on-device!
 
-![](https://raw.githubusercontent.com/iakashpaul/iakashpaul.github.io/master/assets/images/image-hole-in-palm.png
+![](https://raw.githubusercontent.com/iakashpaul/iakashpaul.github.io/master/assets/images/image-hole-in-palm.png)
 
 ## Roadmap
 
