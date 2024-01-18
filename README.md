@@ -5,11 +5,22 @@ Android app for the ```Hole in the Palm``` project, making LLMs accessible on-de
 
 1. Build basic Android app with ```llama.cpp/server.cpp``` as a library for Android NDK with ```OpenBLAS``` and ```CLBlast``` support if feasible, since I've already verified 3b & 7b models running at decent tok/s at Q4/5 based quantization levels using Termux & Userland
 
-2. Verify models for general QnA, code assistance & multi-lingual support
+2. Verify models for general chat, code assistance & multi-lingual support-
+   
+   [ ] microsoft/phi-2 
+   
+   [ ] stabilityai/stable-code-3b
 
-3. Add support to incorporate datasets for RAG based QnA on-device & toggling to code assistant roles
+   [ ] mistralai/Mistral-7B-Instruct-v0.2
+
+   [ ] Tensoic/Kan-LLaMa-SFT-v0.1
+
+   [ ] sarvamai/OpenHathi-7B-Hi-v0.1-Base   
+
+4. Add support to incorporate custom data & vector-db for RAG based QnA on-device & toggling to code assistance tasks
 
 ### Long term goal
-[ ] Look at incorporating STT via on-device STT or Whisper model for translation into English from regional language directly & TTS with VAD based interruptibility
+
+[ ] Look at incorporating on-device STT or Whisper based STT model for translation into English from regional language directly & speak responses via TTS with VAD based interruptibility
 
 [ ] Android WearOS app for handsfree interactions
