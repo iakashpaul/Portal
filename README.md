@@ -17,15 +17,15 @@ I propose creating an Android app which can incorporate few of the smaller LLMs 
 
 2. Verify models for general chat, code assistance & multi-lingual support-
    
-   [ ] microsoft/phi-2 
+   [ ] microsoft/phi-2 🗨️
    
-   [ ] stabilityai/stable-code-3b
+   [ ] stabilityai/stable-code-3b 👨‍💻
 
-   [ ] mistralai/Mistral-7B-Instruct-v0.2
+   [ ] mistralai/Mistral-7B-Instruct-v0.2 👨‍🏫
 
-   [ ] Tensoic/Kan-LLaMa-SFT-v0.1
+   [ ] Tensoic/Kan-LLaMa-SFT-v0.1 ```ಕನ್ನಡ```
 
-   [ ] sarvamai/OpenHathi-7B-Hi-v0.1-Base   
+   [ ] sarvamai/OpenHathi-7B-Hi-v0.1-Base ```हिंदी```
 
 4. Add support to incorporate custom data & vector-db for RAG based QnA on-device & toggling to code assistance tasks
    
