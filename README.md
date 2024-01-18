@@ -3,7 +3,7 @@ Android app for the ```Hole in the Palm``` project, making LLMs accessible on-de
 
 ## Roadmap
 
-1. Build basic Android app with ```llama.cpp``` as a library for Android NDK with ```OpenBLAS``` and ```CLBlast``` support if feasible, since I've already verified 3b & 7b models running at decent tok/s at Q4/5 based quantization levels using Termux & Userland
+1. Build basic Android app with ```llama.cpp```/server.cpp as a library for Android NDK with ```OpenBLAS``` and ```CLBlast``` support if feasible, since I've already verified 3b & 7b models running at decent tok/s at Q4/5 based quantization levels using Termux & Userland
 
 2. Verify models for general QnA, code assistance & multi-lingual support
 
