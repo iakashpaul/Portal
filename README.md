@@ -18,9 +18,11 @@ Android app for the ```Hole in the Palm``` project, making LLMs accessible on-de
    [ ] sarvamai/OpenHathi-7B-Hi-v0.1-Base   
 
 4. Add support to incorporate custom data & vector-db for RAG based QnA on-device & toggling to code assistance tasks
+   
+<hr>
 
-### Long term goal
+### Long term goals
 
-[ ] Look at incorporating on-device STT or Whisper based STT model for translation into English from regional language directly & speak responses via TTS with VAD based interruptibility
+* Look at incorporating on-device STT or Whisper based STT model for translation into English from regional language directly & speak responses via TTS with VAD based interruptibility
 
-[ ] Android WearOS app for handsfree interactions
+* Android WearOS app for handsfree interactions
