@@ -1,5 +1,5 @@
-# Portal : Hole in your Palm
->Theme : AI for India [Hasgeek Hackathon Submission](https://hasgeek.com/fifthelephant/open-source-ai-hackathon/sub/hole-in-your-palm-U8eakkDqenFxM9BWfMuXjF)
+# Portal: Hole in your Palm
+>Theme : AI for India [Hasgeek Hackathon Submission](http://has.gy/W7bW)
 
 Android app for the ```Hole in your Palm``` project, making LLMs accessible on-device!
 
