@@ -3,7 +3,7 @@
 
 Android app for the ```Hole in your Palm``` project, making LLMs accessible on-device!
 
-![](https://raw.githubusercontent.com/iakashpaul/iakashpaul.github.io/master/assets/images/image-hole-in-palm.png)
+<img src="https://raw.githubusercontent.com/iakashpaul/iakashpaul.github.io/master/assets/images/image-hole-in-palm.png" width="500px">
 
 ## Background 
 
@@ -17,7 +17,7 @@ I propose creating an Android app which can incorporate few of the smaller LLMs 
 
 2. Verify models for general chat, code assistance & multi-lingual support-
    
-   [ ] microsoft/phi-2 🗨️
+   [ ] microsoft/phi-2 or stabilityai/stablelm-2-1_6b 🗨️
    
    [ ] stabilityai/stable-code-3b 👨‍💻
 
