@@ -31,6 +31,9 @@ I propose creating an Android app which can incorporate few of the smaller LLMs 
    
 <hr>
 
+## Screenshots
+
+<img src="android-app-initial-screen.png">
 ### Long term goals
 
 * Look at incorporating on-device STT or Whisper based STT model for translation into English from regional language directly & speak responses via TTS with VAD based interruptibility
