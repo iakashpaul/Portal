@@ -67,27 +67,32 @@ class MainActivity(
         val free = Formatter.formatFileSize(this, availableMemory().availMem)
         val total = Formatter.formatFileSize(this, availableMemory().totalMem)
 
-        viewModel.log("Current memory: $free / $total")
+        viewModel.log("Memory Free/Total: $free / $total")
         viewModel.log("Downloads directory: ${getExternalFilesDir(null)}")
 
         val extFilesDir = getExternalFilesDir(null)
 
         val models = listOf(
             Downloadable(
-                "Phi-2 7B (Q4_0, 1.6 GiB)",
-                Uri.parse("https://huggingface.co/ggml-org/models/resolve/main/phi-2/ggml-model-q4_0.gguf?download=true"),
-                File(extFilesDir, "phi-2-q4_0.gguf"),
+                "Gemma-2b-it-Q8",
+                Uri.parse("https://huggingface.co/iAkashPaul/gemma-2b-it-gguf/resolve/main/gemma-2b-it-Q8_0.gguf?download=true"),
+                File(extFilesDir, "gemma-2b-it-Q8_0.gguf"),
             ),
             Downloadable(
-                "TinyLlama 1.1B (f16, 2.2 GiB)",
-                Uri.parse("https://huggingface.co/ggml-org/models/resolve/main/tinyllama-1.1b/ggml-model-f16.gguf?download=true"),
-                File(extFilesDir, "tinyllama-1.1-f16.gguf"),
+                "Gemma-2b-it-Q4",
+                Uri.parse("https://huggingface.co/iAkashPaul/gemma-2b-it-gguf/resolve/main/gemma-2b-it-Q4_0.gguf?download=true"),
+                File(extFilesDir, "gemma-2b-it-Q4_0.gguf"),
             ),
             Downloadable(
-                "Phi 2 DPO (Q3_K_M, 1.48 GiB)",
-                Uri.parse("https://huggingface.co/TheBloke/phi-2-dpo-GGUF/resolve/main/phi-2-dpo.Q3_K_M.gguf?download=true"),
-                File(extFilesDir, "phi-2-dpo.Q3_K_M.gguf")
+                "Mistral-7B-Instruct-v0.2",
+                Uri.parse("https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q4_0.gguf?download=true"),
+                File(extFilesDir, "mistral-7b-instruct-v0.2.Q4_0.gguf"),
             ),
+            Downloadable(
+                "StableLM 1.6B Zephyr",
+                Uri.parse("https://huggingface.co/stabilityai/stablelm-2-zephyr-1_6b/resolve/main/stablelm-2-zephyr-1_6b-Q4_0.gguf?download=true"),
+                File(extFilesDir, "stablelm-2-zephyr-1_6b-Q4_0.gguf")
+        )
         )
 
         setContent {
