@@ -17,7 +17,7 @@ class MainViewModel(private val llm: Llm = Llm.instance()): ViewModel() {
 
     private val tag: String? = this::class.simpleName
 
-    var messages by mutableStateOf(listOf("Initializing..."))
+    var messages by mutableStateOf(listOf(""))
         private set
 
     var message by mutableStateOf("")
@@ -95,7 +95,7 @@ class MainViewModel(private val llm: Llm = Llm.instance()): ViewModel() {
     }
 
     fun clear() {
-        messages = listOf()
+        messages = listOf("")
     }
 
     fun log(message: String) {

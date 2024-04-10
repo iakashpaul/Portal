@@ -4,6 +4,7 @@ import android.app.DownloadManager
 import android.net.Uri
 import android.util.Log
 import androidx.compose.material3.Button
+import androidx.compose.material3.ElevatedButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -31,7 +32,7 @@ data class Downloadable(val name: String, val source: Uri, val destination: File
 
         @JvmStatic
         @Composable
-        fun Button(viewModel: MainViewModel, dm: DownloadManager, item: Downloadable) {
+        fun ElevatedButton(viewModel: MainViewModel, dm: DownloadManager, item: Downloadable) {
             var status: State by remember {
                 mutableStateOf(
                     if (item.destination.exists()) Downloaded(item)
@@ -106,7 +107,7 @@ data class Downloadable(val name: String, val source: Uri, val destination: File
                 }
             }
 
-            Button(onClick = { onClick() }, enabled = status !is Downloading) {
+            ElevatedButton(onClick = { onClick() }, enabled = status !is Downloading) {
                 when (status) {
                     is Downloading -> Text(text = "Downloading ${(progress * 100).toInt()}%")
                     is Downloaded -> Text("Load ${item.name}")
