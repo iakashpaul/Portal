@@ -5,6 +5,14 @@ Android app for the ```Hole in your Palm``` project, making LLMs accessible on-d
 
 <img src="https://raw.githubusercontent.com/iakashpaul/iakashpaul.github.io/master/assets/images/image-hole-in-palm.png" width="500px">
 
+## Video
+
+[Youtube](https://youtu.be/EY1_139uccc)
+
+## Slides
+
+[PPT](https://docs.google.com/presentation/d/1vd319CIffL_MaXt-FbTPDNMprASr_-WR/edit?usp=sharing&ouid=116547059781397399357&rtpof=true&sd=true)
+
 ## Background 
 
 > Through this initiative I’d like to revisit the almost 20 year old experiment of [‘The Hole in the Wall’](https://en.wikipedia.org/wiki/Minimally_invasive_education) project by Sugata Mitra, which incorporated minimally invasive education by having a computer kiosk embedded in a wall at less fortunate locations across India.
