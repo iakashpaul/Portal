@@ -1,7 +1,7 @@
 # Portal: Hole in your Palm
 >Theme : AI for India [Hasgeek Hackathon Submission](http://has.gy/W7bW)
 
-Android app for the ```Hole in your Palm``` project, making LLMs accessible on-device!
+Android app for the ```Hole in your Palm``` project, making LLMs accessible on-device using the [🦙 Llama.cpp project](https://github.com/ggerganov/llama.cpp)
 
 <img src="https://raw.githubusercontent.com/iakashpaul/iakashpaul.github.io/master/assets/images/image-hole-in-palm.png" width="500px">
 
