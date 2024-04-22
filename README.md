@@ -27,10 +27,13 @@ I propose creating an Android app which can incorporate few of the smaller LLMs 
 
 ## Roadmap
 
-* Extend llama.cpp's example Android app with OpenCL support to make use CPU & GPU, since I've already verified 1.6b, 3b & 7b models running at decent tok/s at Q4/Q8 quantization on CPU.
+* Extend llama.cpp's example Android app with OpenCL support to make use CPU & GPU, already verified 1.6b, 3b & 7b models running at decent tok/s at Q4/Q8 quantization on CPU via termux & this app
 
 * Add support to incorporate custom data & vector-db for RAG based QnA on-device & toggling to code assistance tasks
-   
+
+* Fix bugs with message history & unloading models completely
+
+
 <hr>
 
 ## Screenshots
@@ -39,6 +42,8 @@ I propose creating an Android app which can incorporate few of the smaller LLMs 
 
 ### Long term goals
 
-* Look at incorporating on-device STT or Whisper based STT model for translation into English from regional language directly & speak responses via TTS with VAD based interruptibility
+* Tool/Function calling via grammar & file output generation/sharing
 
-* Android WearOS app for handsfree interactions
+* Look at incorporating on-device STT or Whisper based STT model for translation into English from regional language directly & respond via TTS with VAD based interruptibility
+
+* Android Assistant integration, widget on home/lock screens & notification shade
