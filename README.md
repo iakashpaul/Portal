@@ -5,6 +5,12 @@ Android app for the ```Hole in your Palm``` project, making LLMs accessible on-d
 
 <img src="https://raw.githubusercontent.com/iakashpaul/iakashpaul.github.io/master/assets/images/image-hole-in-palm.png" width="500px">
 
+## Android App 
+
+[APK](https://akashpaul.com/assets/portal.apk)
+
+Coming soon to the Play Store & Indus AppStore
+
 ## Video
 
 [Youtube](https://youtu.be/EY1_139uccc)
