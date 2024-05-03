@@ -90,11 +90,11 @@ class MainActivity(
 //                Uri.parse("https://huggingface.co/iAkashPaul/gemma-2b-it-gguf/resolve/main/gemma-2b-it-Q8_0.gguf?download=true"),
 //                File(extFilesDir, "gemma-2b-it-Q8_0.gguf"),
 //            ),
-//            Downloadable(
-//                "Gemma-2b-it-Q4",
-//                Uri.parse("https://huggingface.co/iAkashPaul/gemma-2b-it-gguf/resolve/main/gemma-2b-it-Q4_0.gguf?download=true"),
-//                File(extFilesDir, "gemma-2b-it-Q4_0.gguf"),
-//            ),
+           Downloadable(
+               "Hermes-2-Pro-Llama-3-8B-Q4",
+               Uri.parse("https://huggingface.co/NousResearch/Hermes-2-Pro-Llama-3-8B-GGUF/resolve/main/Hermes-2-Pro-Llama-3-8B-Q4_K_M.gguf?download=true"),
+               File(extFilesDir, "Hermes-2-Pro-Llama-3-8B-Q4.gguf"),
+           ),
             Downloadable(
                 "StableCode-3B",
                 Uri.parse("https://huggingface.co/bartowski/stable-code-instruct-3b-GGUF/resolve/main/stable-code-instruct-3b-Q4_0.gguf?download=true"),
@@ -105,11 +105,11 @@ class MainActivity(
 //                Uri.parse("https://huggingface.co/second-state/stablelm-2-zephyr-1.6b-GGUF/resolve/main/stablelm-2-zephyr-1_6b-Q8_0.gguf?download=true"),
 //                File(extFilesDir, "stablelm-2-zephyr-1_6b.gguf"),
 //            ),
-            Downloadable(
-                "Navarasa-2B",
-                Uri.parse("https://huggingface.co/Telugu-LLM-Labs/Indic-gemma-2b-finetuned-sft-Navarasa-2.0-gguf/resolve/main/Q5_K_M.gguf?download=true"),
-                File(extFilesDir, "navarasa-2-q5.gguf")
-            ),
+            // Downloadable(
+            //     "Navarasa-2B",
+            //     Uri.parse("https://huggingface.co/Telugu-LLM-Labs/Indic-gemma-2b-finetuned-sft-Navarasa-2.0-gguf/resolve/main/Q5_K_M.gguf?download=true"),
+            //     File(extFilesDir, "navarasa-2-q5.gguf")
+            // ),
             Downloadable(
                 "Mistral-7B-IT",
                 Uri.parse("https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GGUF/resolve/main/mistral-7b-instruct-v0.2.Q2_K.gguf?download=true"),
