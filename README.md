@@ -7,7 +7,7 @@ Android app for the ```Hole in your Palm``` project, making LLMs accessible on-d
 
 ## Android App 
 
-[APK](https://akashpaul.com/assets/portal.apk)
+[APK](https://drive.google.com/file/d/1NDtp3siDcvRpAMn4kyIDt8QNzBNq0GC_/view?usp=drivesdk)
 
 Coming soon to the Play Store & Indus AppStore
 
